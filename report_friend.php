@@ -157,6 +157,7 @@ function validateForm() {
 		}
 	</style>
 		<button class="submit" type="submit" class="btn btn-success btn-lg" id="submit" value ="submit">SUBMIT DETAILS</button>
+		<a href="homepage.php"><button class="submit" type="button" class="btn btn-warning btn-lg" id="back" value ="back">BACK</button></a>
 	</div>
   </form
   </div>

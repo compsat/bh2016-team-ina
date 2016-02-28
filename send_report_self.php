@@ -103,7 +103,7 @@ else
 			margin-bottom: 20px;
 		}
 	</style>
-	<a href='report_self.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>Send Again</button></center></a>;
+	<a href='report_self.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>SEND AGAIN</button></center></a>;
 	<a href='homepage.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>BACK</button></center></a>";
 		echo "</div>";
 		echo $urgency;

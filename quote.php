@@ -26,28 +26,28 @@
 			margin-bottom: 20px;
 		}
 	</style>
-	<center><p id="quote" style="font-family:Kreon; font-size:50px; margin-top:200px; margin-bottom:100px; color: #4ABCAB;"> Go ahead. Click another one.</p></center>
+	<center><p id="quote" style="font-family:Kreon; font-size:40px; margin-top:200px; margin-bottom:100px; color: #4ABCAB;"> Go ahead. Click another one.</p></center>
 	<center><button class="askhelp" type="button" class="btn btn-warning btn-lg" id="submit" value ="submit" onclick="generateQuote()">ANOTHER ONE</button></center>
 	<a href='report_self.php'><center><button class="askhelp" type="submit" class="btn btn-warning btn-lg" id="submit" value ="submit">I NEED HELP</button></center></a>
+	<a href='homepage.php'><center><button class="askhelp" type="submit" class="btn btn-warning btn-lg" id="submit" value ="submit">BACK</button></center></a>
 	</div>
 	
   <p id="error"> </p>
 
   <script>
 	var quotes = [
-	"Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
-	"Either you run the day or the day runs you.", 
-	"What you do today can improve all your tomorrows.", 
-	"Don't watch the clock; do what it does. Keep going.", 
-	"The secret of getting ahead is getting started.", 
-	"Don't watch the clock; do what it does. Keep going.", 
-	"One good girl is worth a thousand bitches", 
-	"If you can dream it, you can do it.", 
-	"Problems are not stop signs, they are guidelines.", 
-	"Nigga nigga nigga nigga kentucky fried chicken."];
+	"No, you're not perfect but you're not your mistakes. -Kanye West",
+	"Look at the stars, look how they shine for you - Coldplay", 
+	"You are beautiful, no matter what they say - Christina Aguilera", 
+	"It might take a year, it might take a day, but what's meant to be, will always find a way.", 
+	"It doesn't hurt to feel sad from time to time.", 
+	"Crying is cleansing. There's a reason for tears, happiness or sadness.", 
+	"The walls we build around us to keep sadness out also keeps out the joy.", 
+	"Worry never robs tomorrow of its sorrow, it only saps today of its joy.", 
+	"Dont' be sad that it's over. Be happy that it happened."];
 
   function generateQuote(){
-  	var index = Math.floor(Math.random() * (9 - 1 + 1)) + 1;
+  	var index = Math.floor(Math.random() * (8 - 1 + 1)) + 1;
   	document.getElementById("quote").innerHTML = quotes[index];
   }
 </script>

@@ -9,7 +9,7 @@
   <style> body { background-color: #FBFBEA } </style>
   <body>
     <div class="container"> 
-      <img class="img-responsive center-block" src="Logo.png" class="img-rounded" style="width: 40%; height=auto;"> 
+      <img class="img-responsive center-block" src="Logo.png" class="img-rounded" style="width: 30%; height=auto;"> 
     </div>
 	<div>
 		<style>

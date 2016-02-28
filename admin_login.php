@@ -9,7 +9,7 @@
   <style> body { background-color: #FBFBEA } </style>
   <body>
     <div class="container"> 
-      <img class="img-responsive center-block" src="Logo.png" class="img-rounded" style="width: 40%; height=auto;"> 
+      <img class="img-responsive center-block" src="Logo.png" class="img-rounded" style="width: 30%; height=auto;"> 
     </div>
 	<div>
 		<style>
@@ -26,25 +26,25 @@
 	</style>
 	</div>
 	<div class="container">
-		<form class="form-horizontal" role="form">
+		<form class="form-horizontal" role="form" action = "checklogin.php" method = "POST" name = "myForm">
 			<div class="form-group">
 					<div class="col-xs-4 col-md-offset-4">
 						<style>
 							.margin{
 							margin-bottom: 10px;
 							} </style>
-							<input class="form-control margin" id="focusedInput" type="text" value="Admin Username">
+							<input class="form-control margin" id="focusedInput" type="text" value="Admin Username" name = "username">
 					</div>
 					<div class="col-xs-4 col-md-offset-4">
 						<style>
 							.margin1{
 							margin-bottom: 10px;
 						} </style>
-						<input class="form-control margin1" id="focusedInput" type="password" value="Password">
+						<input class="form-control margin1" id="focusedInput" type="password" value="Password" name = "password">
 					</div>
 					</div>
-		</form>
 		<a href='view_reports.php'><center><button class="askhelp" type="submit" class="btn btn-warning btn-lg" id="submit" value ="submit">LOGIN</button></center></a>
+	</form>
 	</div>
   </body>	
 </html>

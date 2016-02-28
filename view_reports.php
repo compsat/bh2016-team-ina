@@ -202,7 +202,7 @@
 		}
 	</style>
 	</form>
-		<?php echo "<a href='homepage.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>BACK</button></center></a>";
+		<?php echo "<a href='menu.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>BACK</button></center></a>";
 		?>
 	</body>
 </html>

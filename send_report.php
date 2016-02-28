@@ -17,7 +17,6 @@ else
   echo "<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>";
   echo "<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>";
 	echo "</head><link href = 'styles.css' type = 'text/css' rel = 'stylesheet'/>";
-	echo "<style> body { background-color: #FBFBEA } </style>";
 	echo "<body>";
 	
 	$idNum = $_POST["idNum"];
@@ -85,7 +84,6 @@ else
 			font-family: 'Kreon';
 			margin-bottom: 20px;
 		}
-
 	</style>
 	<a href='homepage.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>BACK</button></center></a>";
 		echo "</div>";
@@ -112,7 +110,7 @@ else
 			margin-bottom: 20px;
 		}
 	</style>
-	<a href='report_friend.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>Send Again</button></center></a>;
+	<a href='report_friend.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>SEND AGAIN</button></center></a>;
 	<a href='homepage.php'><center><button class='askhelp' type='submit' class='btn btn-warning btn-lg' id='submit' value ='submit'>BACK</button></center></a>";
 		echo "</div>";
 	}
